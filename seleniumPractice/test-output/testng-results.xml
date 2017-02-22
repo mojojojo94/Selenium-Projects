@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17678" started-at="2016-11-02T23:03:05Z" finished-at="2016-11-02T23:03:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17678" started-at="2016-11-02T23:03:05Z" finished-at="2016-11-02T23:03:23Z">
+      <class name="FirstPageFactory">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:FirstPageFactory@4c6c9c37]" name="setUp" is-config="true" duration-ms="3685" started-at="2016-11-02T16:03:05Z" finished-at="2016-11-02T16:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:FirstPageFactory@4c6c9c37]" name="testCase1" duration-ms="380" started-at="2016-11-02T16:03:09Z" finished-at="2016-11-02T16:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FirstPageFactory@4c6c9c37]" name="tearDown" is-config="true" duration-ms="1086" started-at="2016-11-02T16:03:09Z" finished-at="2016-11-02T16:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:FirstPageFactory@4c6c9c37]" name="setUp" is-config="true" duration-ms="2919" started-at="2016-11-02T16:03:10Z" finished-at="2016-11-02T16:03:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase2(java.lang.String, java.lang.String)[pri:0, instance:FirstPageFactory@4c6c9c37]" name="testCase2" duration-ms="2861" started-at="2016-11-02T16:03:13Z" data-provider="testdata" finished-at="2016-11-02T16:03:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ecalix@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FirstPageFactory@4c6c9c37]" name="tearDown" is-config="true" duration-ms="950" started-at="2016-11-02T16:03:16Z" finished-at="2016-11-02T16:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:FirstPageFactory@4c6c9c37]" name="setUp" is-config="true" duration-ms="2676" started-at="2016-11-02T16:03:17Z" finished-at="2016-11-02T16:03:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCase2(java.lang.String, java.lang.String)[pri:0, instance:FirstPageFactory@4c6c9c37]" name="testCase2" duration-ms="2125" started-at="2016-11-02T16:03:20Z" data-provider="testdata" finished-at="2016-11-02T16:03:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ecalix@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:FirstPageFactory@4c6c9c37]" name="tearDown" is-config="true" duration-ms="954" started-at="2016-11-02T16:03:22Z" finished-at="2016-11-02T16:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- FirstPageFactory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

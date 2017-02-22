@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13045" started-at="2016-09-20T02:31:15Z" finished-at="2016-09-20T02:31:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13045" started-at="2016-09-20T02:31:15Z" finished-at="2016-09-20T02:31:28Z">
+      <class name="com.catalog.tests.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.catalog.tests.LoginTests@33a70fb5]" name="setUp" is-config="true" duration-ms="4754" started-at="2016-09-19T19:31:15Z" finished-at="2016-09-19T19:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.catalog.tests.LoginTests@33a70fb5]" name="testLogin" duration-ms="1401" started-at="2016-09-19T19:31:20Z" data-provider="test1" finished-at="2016-09-19T19:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ecalix@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.catalog.tests.LoginTests@33a70fb5]" name="tearDown" is-config="true" duration-ms="1068" started-at="2016-09-19T19:31:21Z" finished-at="2016-09-19T19:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.catalog.tests.LoginTests@33a70fb5]" name="setUp" is-config="true" duration-ms="3972" started-at="2016-09-19T19:31:22Z" finished-at="2016-09-19T19:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginError()[pri:0, instance:com.catalog.tests.LoginTests@33a70fb5]" name="testLoginError" duration-ms="822" started-at="2016-09-19T19:31:26Z" finished-at="2016-09-19T19:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginError -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.catalog.tests.LoginTests@33a70fb5]" name="tearDown" is-config="true" duration-ms="993" started-at="2016-09-19T19:31:27Z" finished-at="2016-09-19T19:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.catalog.tests.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
